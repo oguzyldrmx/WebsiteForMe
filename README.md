@@ -4,4 +4,4 @@ Sakarya Üniversitesi 1.Sýnýf Web Teknolojileri dersinin projesidir. Bu ReadMe do
 
 Proje, memleketimizi ve kendimizi anlatan kiþisel bir websitesidir. Derste öðrendiðimiz bütün bilgileri(HTML,JavaScript,CSS vb.) kullanarak yapacaðýmýz websitesinin sadece tanýtým dosyasýdýr.
 
-Oðuz YILDIRIM, BÝLGÝSAYAR MHÜENDÝSLÝÐÝ , B181210085
+Oðuz YILDIRIM, BÝLGÝSAYAR MHÜENDÝSLÝÐÝ , B181210085.
