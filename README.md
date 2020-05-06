@@ -1,7 +1,7 @@
 # MemleketProjesi
 
-Sakarya Üniversitesi 1.Sınıf Web Teknolojileri dersinin projesidir. Bu ReadMe dosyasında proje hakkında bilgi verilecektir.
+Sakarya Ãœniversitesi 1.SÄ±nÄ±f Web Teknolojileri dersinin projesidir. Bu ReadMe dosyasÄ±nda proje hakkÄ±nda bilgi verilecektir.
 
-Proje, memleketimizi ve kendimizi anlatan kişisel bir websitesidir. Derste öğrendiğimiz bütün bilgileri(HTML,JavaScript,CSS vb.) kullanarak yapacağımız websitesinin sadece tanıtım dosyasıdır.
+Proje, memleketimizi ve kendimizi anlatan kiÅŸisel bir websitesidir. Derste Ã¶ÄŸrendiÄŸimiz bÃ¼tÃ¼n bilgileri(HTML,JavaScript,CSS vb.) kullanarak yapacaÄŸÄ±mÄ±z websitesinin sadece tanÄ±tÄ±m dosyasÄ±dÄ±r.
 
-Oğuz YILDIRIM, BİLGİSAYAR MHÜENDİSLİĞİ , B181210085.
+OÄŸuz YILDIRIM, BÄ°LGÄ°SAYAR MÃœHENDÄ°SLÄ°ÄÄ° , B181210085.
