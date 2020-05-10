@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+<title>ILETISIM</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+  <link href="style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="fontawesome/css/all.css">
+	
+        <script>
+          function FormKontrol() {
+              var adi = document.getElementById("ad").value;
+              var soyadi = document.getElementById("soyad").value;
+              var mail = document.getElementById("mail").value;
+              var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+
+              if (reg.test(mail) == false || mail == "") {
+                alert("Lütfen geçerli bir e-posta adresi giriniz.");
+            }
+                else if(mesaj=="")
+                {
+                    alert("Lütfen mesajınızı giriniz.");
+                }
+                else if(adi=="")
+                {
+                    alert("Lütfen adınızı giriniz.");
+                }       
+                else if(soyadi=="")
+                {
+                    alert("Lütfen soyadınızı giriniz.");
+                }
+
+                else
+                {
+                    document.writeln("Teşekkürler! Mesajınız alınmıştır."+ "<br>" + mail+"<br>"+adi+" "+soyadi);
+                }
+              }
+        </script>
+</head>
+	<body>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <a class="navbar-brand" href="index.html">
+  <img src="images/bolt.png" width="30" height="30" alt="">
+	</a>
+  <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="menu">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a href="index.html" class="nav-link" >Hakkinda </a>
+      </li>
+      <li class="nav-item">
+        <a href="ozgecmis.html" class="nav-link" >Özgeçmiş</a>
+      </li>
+      <li class="nav-item">
+        <a href="sehrim.html" class="nav-link" >Şehrim</a>
+      </li>
+      <li class="nav-item ">
+       <a href="mirasimiz.html" class="nav-link" >Mirasımız</a>
+      </li>
+	<li class="nav-item active">
+        <a href="iletisim.html" class="nav-link" >İletişim</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <li class="nav-item">
+        <a href="giris.html" class="nav-link" >Login</a>
+      </li>
+    </form>
+  </div>
+		</nav>
+
+		<div class="container">
+        <div class="row">
+      <div class="col-lg-12">
+      <form>
+        <table width="1000" height="700" align="center">
+          <tr>
+            <td> AD :</td>
+            <td><input type="text" id="ad" placeholder="Adınız.." ></td>
+          </tr>
+          <tr>
+            <td>SOYAD:</td>
+            <td><input type="text" id="soyad" placeholder="Soyadınız.." ></td>
+          </tr>
+          <tr>
+            <td>CİNSİYET:</td>
+            <td colspan="2">
+              <input type="radio" id="kadin" name="cinsiyet" value="kadin">
+              <label for="kadin">Kadın</label>
+              <input type="radio" id="erkek" name="cinsiyet" value="erkek">
+              <label for="erkek">Erkek</label>
+            </td>
+          </tr>
+          <tr>
+            <td>YAŞ:</td>
+            <td ><input type="number" id="yas" min="1" placeholder="Yaşınız..."></td>
+          </tr>
+
+          <tr>
+            <td>MAİL:</td>
+            <td><input type="email" id="mail" placeholder="Mail..."></td>
+          </tr>
+
+          <td> MESAJINIZ :</td>
+            <td><textarea id="mesaj" name="mesaj" placeholder="Mesajınız..."></textarea></td>
+
+          <tr>
+            <td colspan="2">
+              <input type="button" name="kaydet" id="kaydet" value="KAYDET" onclick="FormKontrol()"   >
+              <input type="reset" name="sil" id="sil" value="TEMİZLE">
+            </td>
+          </tr>        
+        </table>    
+      </form><br>
+       </div>
+      </div>
+    </div>
+</body>
+</html>

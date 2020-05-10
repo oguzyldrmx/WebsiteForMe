@@ -23,8 +23,8 @@ body{
 	font-family :Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 }
 #sosyalmedyabutons{
+	left:100px;
 	top:100px;
-	left:100px;	
 }
 .facebook:hover{
 	  background-color: #bc2a8d;
@@ -88,4 +88,41 @@ table tr td{
 	margin:20px;
 	width:100%;
 	height:400px;
+}
+#mirasvideo{
+	top:50px;
+}
+#mirasbilgi{
+	top:20px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+#mirasbilgidevam{
+		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	margin:20px 0 20px 0;
+}
+.card{
+	box-shadow: 0 0 8px 0;
+}
+.iletisimm{
+	width:100px;
+}
+#ad{
+	width: 400px;
+	height: 50px;
+}
+#soyad{
+	width: 400px;
+	height: 50px;
+}
+#yas{
+	width: 400px;
+	height: 50px;
+}
+#mail{
+	width: 400px;
+	height: 50px;
+}
+#mesaj{
+	width: 400px;
+	height: 200px;
 }

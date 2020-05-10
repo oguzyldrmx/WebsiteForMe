@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
-<title>HAKKINDA</title>
+<title>GİRİS</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -12,9 +12,8 @@
 <link href="style.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="fontawesome/css/all.css">
 </head>
-
 <body>
-	<!----Navbar---->	
+<!----Navbar---->	
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
   <a class="navbar-brand" href="index.html">
   <img src="images/bolt.png" width="30" height="30" alt="">
@@ -25,7 +24,7 @@
 
   <div class="collapse navbar-collapse" id="menu">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <li class="nav-item ">
         <a href="index.html" class="nav-link" >Hakkinda </a>
       </li>
       <li class="nav-item">
@@ -34,7 +33,7 @@
       <li class="nav-item">
         <a href="sehrim.html" class="nav-link" >Şehrim</a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item ">
        <a href="mirasimiz.html" class="nav-link" >Mirasımız</a>
       </li>
 	<li class="nav-item">
@@ -42,48 +41,53 @@
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <li class="nav-item">
+      <li class="nav-item active">
         <a href="giris.html" class="nav-link" >Login</a>
       </li>
     </form>
   </div>
 </nav>
 <!----Navbar bitti---->	
-<!----Grid sistemi responsive---->	
-	<div class="container">
-	<div class="row">
-		<div class="col-md-6" id="resim">
-		<img src="images/me.jpeg" class="w-100"  alt="">
-		
-		</div><!----Hakkında yazısı divi---->	
-		<div class="col-md-6" id="hakkindayazisi">
-			<br/>
-			<h1 align="center">HAKKIMDA</h1>
-			<hr>
-			<br><br><br>
-			    <p>Merhaba.Ben Oğuz YILDIRIM.20 yaşındayım ve <a href="sehrim.html">ORDU</a> doğumluyum. Sakarya Üniversitesi'nde Bilgisayar Mühendisliği bölümünde okuyorum. Boş zamanlarımı genelde bilgisayar oynayarak geçirirm. Futbol oynamayı çok severim.Böcekler ve sürüngenlerden hoşlanmam.</p>
+<!----Grid Sistemi ile responsive---->	
+<div class="container">
+	<div class="row my-4">
+		<div class="col-md-4 offset-md-4 my-md-4" id="login">
+		<form action="giris.php" method="POST">
+		<div class="card">
+			<div class="card-header">
+				<div class="row">
+					<div class="col-md-3">
+						<h3>
+					<span class="fa fa-sign-in-alt fa-2x"></span>
+						</h3>
+					</div>
+					<div class="col-md-9">
+						<h2>Login</h2>
+						<small>Lütfen e-posta ve şifrenizi giriniz.</small>
+					</div>
+				</div>
+			</div>
+			<div class="card-body">
+			 <div class="form-group">
+				<input type="email" name="email" id="email" placeholder="abc@abc.com" class="form-control">
+				</div>
+			<div class="form-group">
+				<input type="password" name="password" id="password" placeholder="password" class="form-control">
+				</div>
+			</div>
+			<div class="card-footer text-muted text-right">
+			<button class="btn btn-success" type="submit" value="login">
+				<span class="fa fa-sign-in-alt fa-2x"> Giriş</span>
+				</button>
+			</div>
+		</div>	
+			
+		</form>
 		
 		</div>
-		<!----Sosyal medya yazisı divi---->	
-			<div class="col-md-6" id="sosyalmedyayazi">
-			<br>
-			<h1>SOSYAL MEDYA</h1>
-			<hr>
-			<br><br>
-			<p>Sosyal medya hesaplarıma burdan erişebilirsiniz.
-			<br><br><br><br>
-			</p>
-			</div>
-			<!----Sosyal medya butonları---->	
-			<div class="col-md-6" id="sosyalmedyabutons">
-		<a href="https://www.facebook.com/owshatt" target="_blank" class="facebook"><i class="fab fa-facebook fa-6x"></i></a>
-				
-		<a href="https://www.instagram.com/oguzyldrmx/" target="_blank" class="instagram"><i class="fab fa-instagram fa-6x"></i></a>
-				
-		<a href="https://twitter.com/oguzyldrmx" target="_blank" class="twitter"><i class="fab fa-twitter fa-6x"></i></a>
-			</div>
 	
-		</div>
 	</div>
-</body>
+</div>
+
+	</body>
 </html>
