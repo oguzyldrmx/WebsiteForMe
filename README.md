@@ -17,5 +17,5 @@ Project, It is a personal website that tells about my hometown and myself. It is
 
 Oguz YILDIRIM, COMPUTER ENGINEERING STUDENT.
 =======
-
+![image](https://media.giphy.com/media/w9N8EkHCnc6qc0iPbX/giphy.gif)
 >>>>>>> parent of 8edb194... Update README.md
