@@ -1,11 +1,21 @@
-# MemleketProjesi
+# WebsiteForMe / TR
 <<<<<<< HEAD
 
-Sakarya Üniversitesi 1.Sýnýf Web Teknolojileri dersinin projesidir. Bu ReadMe dosyasýnda proje hakkinda bilgi verilecektir.
+Bu ReadMe dosyasÄ±nda proje hakkinda bilgi verilecektir.
 
-Proje, memleketimizi ve kendimizi anlatan kiþisel bir websitesidir. Derste öðrendiðimiz bütün bilgileri(HTML,JavaScript,CSS vb.) kullanarak yapacaðýmýz websitesinin sadece tanýtým dosyasýdýr.
+Proje, memleketimi ve kendimi anlatan kiÅŸisel bir websitesidir. Derste Ã¶ÄŸrendiÄŸimiz bÃ¼tÃ¼n bilgileri(HTML,JavaScript,CSS vb.) kullanarak yapacaÄŸÄ±mÄ±z websitesinin sadece tanÄ±tÄ±m dosyasÄ±dÄ±r.
 
-Oguz YILDIRIM, BILGISAYAR MUHENDISLIGI, B181210085.
+Oguz YILDIRIM, BILGISAYAR MUHENDISLIGI OGRENCISI.
 =======
-Memleketimi tanitan proje.
+
+# WebsiteForMe / ENG
+<<<<<<< HEAD
+
+This ReadMe file will give you information about project.
+
+Project, It is a personal website that tells about my hometown and myself. It is just the introduction file of the website that I will make using all the information (HTML, JavaScript, CSS, etc.) I learned in the school.
+
+Oguz YILDIRIM, COMPUTER ENGINEERING STUDENT.
+=======
+
 >>>>>>> parent of 8edb194... Update README.md
